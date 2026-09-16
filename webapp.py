@@ -189,6 +189,7 @@ if SENTRY_DSN:
 # ── Allowed origins for CORS ──
 _ALLOWED_ORIGINS = {
     "https://goethe-booking-dashboard.netlify.app",
+    "https://goethe-booking-bot.netlify.app",
     "https://incredible-seahorse-66be2b.netlify.app",
     "https://snazzy-kleicha-1d59fd.netlify.app",
     "https://goethe-booking-bot-production-092f.up.railway.app",
