@@ -103,6 +103,7 @@ if _db_url.startswith("postgresql://") or _db_url.startswith("postgres://"):
     import database as db
 else:
     import db
+db.init_db()
 import alexa
 import goethe_scraper
 import student_queue as sqmod
